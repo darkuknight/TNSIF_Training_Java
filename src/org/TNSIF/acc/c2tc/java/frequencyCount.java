@@ -3,7 +3,7 @@ package org.TNSIF.acc.c2tc.java;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class frequencyCount {
+public class FrequencyCount {
 	public static void count(String s) {
 		HashMap<Character,Integer> hash = new HashMap<Character,Integer>();
 		for(char c : s.toCharArray()) {

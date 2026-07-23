@@ -2,7 +2,7 @@ package org.TNSIF.acc.c2tc.java;
 
 import java.util.Scanner;
 
-public class stringReverse {
+public class StringReverse {
 	public static String reverse(String str) {
 		StringBuffer rev = new StringBuffer();
 		int n = str.length();

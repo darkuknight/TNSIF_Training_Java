@@ -2,7 +2,7 @@ package org.TNSIF.acc.c2tc.java;
 
 import java.util.Scanner;
 
-public class secLargest {
+public class SecLargest {
 	public static int findSecLarge(int n, int[] arr) {
 		int largest = arr[0];
 		int secLargest = Integer.MIN_VALUE;

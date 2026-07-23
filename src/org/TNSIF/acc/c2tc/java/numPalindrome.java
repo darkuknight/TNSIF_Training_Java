@@ -2,7 +2,7 @@ package org.TNSIF.acc.c2tc.java;
 
 import java.util.Scanner;
 
-public class numPalindrome {
+public class NumPalindrome {
 	public static int numRev(int n) {
 		int i = n;
 		int rev = 0;

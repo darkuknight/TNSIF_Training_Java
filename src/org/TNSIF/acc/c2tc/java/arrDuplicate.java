@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class arrDuplicate {
+public class ArrDuplicate {
 	public static ArrayList<Integer> findDuplicate(int n,int[] arr) {
 		ArrayList<Integer> dup = new ArrayList<Integer>();
 		Arrays.sort(arr);

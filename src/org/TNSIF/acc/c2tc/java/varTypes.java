@@ -1,6 +1,6 @@
 package org.TNSIF.acc.c2tc.java;
 
-public class varTypes {
+public class VarTypes {
 	int val = 10;
 	void print() {
 		String s = "Local Variable";
@@ -8,7 +8,7 @@ public class varTypes {
 	}
 	static String msg = "Static Variable";
 	public static void main(String[] args) {
-		varTypes obj = new varTypes();
+		VarTypes obj = new VarTypes();
 		System.out.println(obj.val);
 		obj.print();
 		System.out.println(msg);
