@@ -1,4 +1,4 @@
-package org.TNSIF.acc.c2tc.oops;
+package org.tnsif.acc.c2tc.oops;
 
 public class Food {
 	private String name;

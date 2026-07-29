@@ -1,4 +1,4 @@
-package org.TNSIF.acc.c2tc.java;
+package org.tnsif.acc.c2tc.java;
 
 public class VarTypes {
 	int val = 10;

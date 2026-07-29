@@ -1,6 +1,6 @@
-package org.TNSIF.acc.c2tc.oops;
+package org.tnsif.acc.c2tc.oops;
 
-abstract class Student{
+abstract class Student1{
 	void call() {
 		System.out.println("Call feature added!");
 	}
@@ -9,7 +9,7 @@ abstract class Student{
 	abstract void health();
 }
 
-abstract class Student2 extends Student{
+abstract class Student2 extends Student1{
 	@Override
 	void ai() {
 		System.out.println("Ai feature added!");
