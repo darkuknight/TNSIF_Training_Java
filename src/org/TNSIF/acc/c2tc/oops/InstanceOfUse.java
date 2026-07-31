@@ -19,7 +19,7 @@ class PayPal extends Pay1{
 public class InstanceOfUse {
 	public static void main(String[] args) {
 		Pay1 p = new Pay1();
-		p = new Card1();
+		p = new PayPal();
 		if(p instanceof Card1) {
 			Card1 c = (Card1) p;
 			c.swipeCard();
