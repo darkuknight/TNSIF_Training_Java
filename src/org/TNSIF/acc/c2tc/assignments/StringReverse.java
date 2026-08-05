@@ -1,7 +1,8 @@
-package org.tnsif.acc.c2tc.java;
+package org.tnsif.acc.c2tc.assignments;
+
 import java.util.Scanner;
 
-public class StringPalindrome {
+public class StringReverse {
 	public static String reverse(String str) {
 		StringBuffer rev = new StringBuffer();
 		int n = str.length();
@@ -12,9 +13,9 @@ public class StringPalindrome {
 	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter string to check palindrome: ");
+		System.out.print("Enter string to reverse: ");
 		String str = sc.next();
-		System.out.println(str.equals(reverse(str)));
+		System.out.println(reverse(str));
 		sc.close();
 	}
 }
