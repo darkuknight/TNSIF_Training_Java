@@ -1,4 +1,4 @@
-package org.tnsif.acc.c2tc.assignments;
+package org.tnsif.acc.c2tc.assignments.basics;
 
 import java.util.ArrayList;
 import java.util.Arrays;
