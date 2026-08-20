@@ -13,7 +13,9 @@ public class ThrowsDemo {
 		System.out.println("Cant divide by Zero");
 	}
 	public static void main(String[] args) {
+		
 		print();
+		
 		try {
 			fileReading();
 		}catch(IOException e) {
